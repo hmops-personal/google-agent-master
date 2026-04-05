@@ -25,7 +25,6 @@ def aplicar_impuesto_pais (monto:float) -> float:
 
 def obtener_tasas_del_dia() -> dict:
     """
-    Simula una consulta a una API financiera que devuelve las tasas actuales.
     Returns: Un diccionario con las cotizaciones.
     """
    
