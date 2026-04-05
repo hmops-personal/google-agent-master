@@ -36,6 +36,17 @@ def obtener_tasas_del_dia() -> dict:
     }
     return tasas
 
+def aplicar_descuento_jubilado(monto: float) -> float:
+    """
+    Aplica un descuento del 15% exclusivo para jubilados.
+    Args:
+        monto: El valor base antes del descuento.
+    Returns:
+        El monto final con el descuento aplicado.
+    """
+    return monto * 0.85
+
+
 def obtener_tasa_cambio_dolar() -> float:
     """
     Obtiene la tasa de cambio actual del dólar a pesos argentinos.
